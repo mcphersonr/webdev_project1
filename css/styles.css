@@ -1,0 +1,125 @@
+/*Paragraph position styles sub headings*/
+p.details{
+	width: 480px;
+	text-align: justify;
+}
+
+p.title{
+	width:400px;
+	float:left;
+	text-decoration: underline;
+	font-weight: bold;
+	clear:both;
+}
+
+p.dates{
+	float:right;
+	width:110px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+p.obj{
+	width:550px;
+	margin-left: 10px;
+	text-align: justify;
+}
+
+
+h1{
+	border-bottom: solid;
+	width:800px;
+	font-family:"Bookman Old Style","Times New Roman","Book Antigua";
+	color: navy;
+}
+
+.font{
+	font-family:"Bookman Old Style","Times New Roman","Book Antigua";
+	font-size: 14px;
+	color:black;
+}
+
+.subhead{
+	color: navy;
+	width:200px;
+	text-decoration: underline;
+	float:left;
+	height:80px;
+	border-right: solid;
+	border-color: navy;
+	text-align: center;
+	font-size:18px;
+
+}
+
+th,
+td{
+	text-align: left;
+}
+
+
+/*Divisions and partitions*/
+body{
+	background-image: url(../image/undertones3.jpg);
+	width: 800px;
+	position: center;
+	margin-left:220px;
+	border: double thick;
+	border-color:navy;
+	height:1339px;
+	box-shadow: 5px 5px 5px grey; 
+}
+
+
+section{
+	float: left;
+	width:450px;
+	background-color: #D6F6DD;
+}
+
+header{
+	height:270px;
+	background-color: #D6F6DD;
+}
+
+
+
+.main{
+	width:800px;
+	background-color: #D6F6DD;
+}
+
+
+.right{
+	float: right;
+}
+
+.left{
+	float: left;
+}
+
+
+.image{
+	position: absolute;
+	left:800px;
+	top:20px;
+	width: 200px;
+	height:250px;
+	-ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+	float: right;
+}
+
+
+div.details{
+	width:550px;
+	float: right;
+}
+
+img{
+	width:inherit;
+	height:inherit;
+	border-radius:25px;
+	box-shadow: 10px 10px 5px #150578;
+}
